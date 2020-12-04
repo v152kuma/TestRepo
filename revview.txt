@@ -1,0 +1,23 @@
+Script :
+
+EVOLUTION, AVOID HACKATHON
+STUDIED AT THE ORIGIN OF REPLICATION
+INSPIRATION STUCK ME
+BEING IN A HEALTHCARE INDUSTRY
+
+
+Good Morning ....I am Vivek and I will be presenting the investment disclosure 001370-Genhack .As we all know that we are in the middle of a global pandemic right now caused by the Coronavirus. With such novel and viurlent strains scientits face a lot of difficulty in terms of a quick response, vaccine development is a well-established and effective way to cure numerous viral diseases, however, their production is time consuming and complex with many levels of clinical trials and manufacturing bottlenecks. 
+Given my background in genomics I understand the process of viral replication and infection, so I thought why not come up with an alternative way, and hence the idea of using the Origin of replication came to me.
+
+Origin of replication is the point inside a genome where the genome replication starts which leads to replication of virus and infection of the host cell , once we find the origin of replication it can then be sliced off or inhibited using enzymes , stopping the virus from replicating and infecting host cells.
+
+Our solution is to use gene sequencing methods to stop the viral genome from replicating itself, by correctly identifying the origin of replication, and assisting scientists to then come up with the right inhibitors or effective chemical/biological agents to block the viral replication points rendering the virus ineffective .
+
+The way our solution works is ....we extract the genome sequence file from genomic data bases like (NCBI database)National Centre for Biotechnology Information database, European Molecular Biology Laboratory etc. The genome sequence is thee passed on  to the genomce processing API which we have created ,an application interface which performs 3 functions , firstly ,finds the origin of replication , secondly ,performs transcription and translation to find the protien end products and lastly ,creates/updates our FHIR database with a profiled Molecular Sequence resource using the data from the first 2 steps . FHIR is well established standard framework used in healthcare applications in order to promote data exchange and interoperability, so utlizing this framework the molecurlar seq resource created can be utilized by other SW applications as well .
+
+The way the OriC finder algorithim works is by taking the length of OriC to be predicted as input , and then iterating over the genome sequence ,finding out the pattern with the highest number of occurences using the input size which was passed .The origin of replication can then be passed onto wet lab geneticist to perform genome slicing or genome cleavage ,blocking the viral replication and renderig it ineffective.
+
+
+This solution is fast and acts on the source viral genome itself, using this method in co-ordination with wet lab technology we can use historical data present in genomic databses to predict and prevent viral diseases preemptively. Also, we will be integrating AI tools to include a comprehensive phylogenetic analysis that will study the replication points of several viral strains to create relationship maps that analyze closely linked groups in terms of virulence and communicability. This will serve as a template for any future outbreaks of novel strains to immediately factor in the potency, that can then be utilized to take immediate proactive measures of risk containment.
+
+
